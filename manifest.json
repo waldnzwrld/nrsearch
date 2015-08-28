@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+
+  "name": "NR Full Search",
+  "description": "This extension searches the NR Docs, Forum and Wiki",
+  "version": "1.0",
+  "icons": {
+    "16": "img/icon16.png",
+    "48": "img/icon48.png",
+    "128": "img/icon128.png"
+  },
+
+  "browser_action": {
+    "default_icon": "img/icon48.png",
+    "default_title": "NR Support Search",
+    "default_popup": "s.html"
+  },
+  "background": {
+    "scripts": [
+      "s.js"
+    ],
+    "persistent": false
+    },
+  "permissions": [
+    "tabs",
+    "https://docs.newrelic.com/*",
+    "https://newrelic.atlassian.net/*",
+    "https://discuss.newrelic.com/*"
+  ]
+}
+
