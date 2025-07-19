@@ -1,3 +1,6 @@
+# DEPRECATED
+
+
 # nrsearch
 
 A Chrome Extension to search multiple sites used by Support team. 
